@@ -1,0 +1,37 @@
+@charset "UTF-8";
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.form{
+	display: inline-block;
+	margin-left: 40%;
+}
+.table{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	width: 250px;
+}
+#message{
+	display:inline-block;
+	margin-left: 20%;
+	height: 200px;
+	overflow: auto;
+	border: 2px solid black;
+	padding: 5px;
+}
+span{
+	color: blue;
+}
